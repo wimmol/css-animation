@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+body {
+    background: #ebebeb;
+}
+
+.cover {
+    width: 80vw;
+    height: 42vw;
+
+    margin: auto;
+    position: absolute;
+    top: 100px;
+    left: 10vw;
+}
+
+.logo div div:nth-child(1) {
+    background: url(../img/logo/logo.png) 50% no-repeat #fff;
+    background-size: contain;
+
+    margin-top: 0;
+}
+
+.logo form {
+    position: relative;
+    top: calc(50% - 1.5vw);
+    left: calc(50% - 3.5vw);
+}
+
+.logo button:active, button:focus {
+    outline: none;
+}
+.logo button::-moz-focus-inner {
+    border: 0;
+}
+
+.logo button {
+    border: none;
+    width: 7vw;
+    height: 3vw;
+    background-color: #0058f9;
+    border-radius: 0.3vw;
+    font-size: 1.5vw;
+    color: white;
+}
+
+.logo button:hover {
+    background-color: #1510b7;
+}
+
+.qa div div:nth-child(1) {
+    color: white;
+    background-color: #0c7b1f;
+    font-size: 6vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover div > div {
+    position: relative;
+    height: 100%;
+}
+
+.js div div:nth-child(1) {
+    color: #000000;
+    background-color: #e4c04d;
+    font-size: 6vw;
+    font-weight: bold;
+}
+
+.js p {
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 1vw;
+    height: auto;
+    backface-visibility: hidden
+}
+
+.js span {
+    display: block;
+}
+
+.cont-flip {
+    z-index: 4;
+    top: -100%;
+    background-color: #ffffff;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 1.7vw;
+}
+
+.java div div:nth-child(1) {
+    color: white;
+    background-color: #da3f3a;
+    font-size: 2.5vw;
+}
+
+.php div div:nth-child(1) {
+    background-color: #d395e6;
+    font-size: 5.2vw;
+}
+
+.wrapper > div:nth-child(1) {
+    position: absolute;
+    width: 100%;
+    z-index: 4;
+}
+
+p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.cont {
+    background-color: #ffffff;
+    padding: 5px;
+    font-weight: bold;
+    overflow: scroll;
+    font-size: 1.7vw;
+}
+
+.net div div:nth-child(1) {
+    color: white;
+    background-color: #6e1869;
+    font-size: 6vw;
+}
+
+.events div div:nth-child(1) {
+    color: white;
+    background-color: #007fd0;
+    font-size: 1.5vw;
+    overflow: hidden;
+}
+
+.blog div div:nth-child(1) {
+    color: white;
+    background-color: #003caa;
+    font-size: 1.5vw;
+    overflow: hidden;
+}
+
+.contacts div div:nth-child(1) {
+    color: white;
+    background-color: #001045;
+    font-size: 1.5vw;
+    overflow: hidden;
+}
+
+.contacts .cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts svg{
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.contacts a {
+    margin: 0.5vw;
+}
+
+.contacts svg:hover {
+    fill: #130da7;
+}
+
+.blog .cont,
+.events .cont {
+    font-size: 1.3vw;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 965px) {
+
+    .cover {
+        width: 80vw;
+        height: 75vw;
+    }
+
+    .js p {
+        padding-top: 90%;
+    }
+
+}
+
+
